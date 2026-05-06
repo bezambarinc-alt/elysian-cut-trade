@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>The Elysian Cut™ — Eternity Band Collection · Bez Ambar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #ffffff;
+      color: #1a1410;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      line-height: 1.7;
+      padding: 0;
+    }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 56px 32px 80px;
+    }
+
+    /* HEADER */
+    .header {
+      text-align: center;
+      padding-bottom: 36px;
+      border-bottom: 1px solid rgba(0,0,0,0.08);
+      margin-bottom: 56px;
+    }
+    .brand {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 26px;
+      font-weight: 400;
+      letter-spacing: 8px;
+      text-transform: uppercase;
+      color: #1a1410;
+    }
+    .brand-sub {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 9px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: #c5a258;
+      margin-top: 10px;
+    }
+
+    /* HERO */
+    .hero-eyebrow {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 10px;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: #c5a258;
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    .hero-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 54px;
+      font-weight: 300;
+      letter-spacing: 4px;
+      text-align: center;
+      color: #1a1410;
+      line-height: 1.1;
+      margin-bottom: 16px;
+    }
+    .hero-sub {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 19px;
+      font-weight: 300;
+      color: #5a4a38;
+      text-align: center;
+      margin-bottom: 8px;
+    }
+    .hero-rule {
+      width: 48px;
+      height: 1px;
+      background: #c5a258;
+      margin: 32px auto;
+      opacity: 0.5;
+    }
+
+    .hero-img {
+      display: block;
+      width: 100%;
+      max-width: 640px;
+      margin: 0 auto 48px;
+      border: 1px solid rgba(0,0,0,0.06);
+    }
+
+    /* STORY */
+    .story {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 18px;
+      font-weight: 300;
+      color: #1a1410;
+      line-height: 1.85;
+      max-width: 580px;
+      margin: 0 auto 48px;
+      text-align: center;
+    }
+    .story em { color: #5a4a38; }
+
+    /* PRICING */
+    .section-label {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 10px;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: #c5a258;
+      text-align: center;
+      margin-top: 32px;
+      margin-bottom: 12px;
+    }
+    .section-heading {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 30px;
+      font-weight: 300;
+      letter-spacing: 2px;
+      color: #1a1410;
+      text-align: center;
+      margin-bottom: 8px;
+    }
+    .section-note {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 15px;
+      color: #9a8a7a;
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0 auto 16px;
+      font-family: 'Montserrat', sans-serif;
+    }
+    th {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: #c5a258;
+      text-align: left;
+      padding: 14px 16px;
+      border-bottom: 1px solid #c5a258;
+    }
+    th.right, td.right { text-align: right; }
+    td {
+      padding: 16px;
+      font-size: 14px;
+      color: #1a1410;
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+    }
+    td.size {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20px;
+      font-weight: 400;
+      color: #1a1410;
+    }
+    td.price {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20px;
+      font-weight: 500;
+      color: #1a1410;
+    }
+    .table-note {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 11px;
+      color: #9a8a7a;
+      text-align: center;
+      margin-top: 16px;
+      letter-spacing: 0.5px;
+    }
+
+    /* SPECS */
+    .specs {
+      background: #f8f5f0;
+      padding: 32px 40px;
+      margin: 56px 0;
+      border-left: 2px solid #c5a258;
+    }
+    .specs-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 10px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: #c5a258;
+      margin-bottom: 18px;
+    }
+    .specs ul {
+      list-style: none;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 17px;
+      color: #1a1410;
+      line-height: 1.9;
+    }
+    .specs li::before {
+      content: "—  ";
+      color: #c5a258;
+    }
+
+    /* CTA */
+    .cta {
+      text-align: center;
+      margin-top: 56px;
+      padding-top: 48px;
+      border-top: 1px solid rgba(0,0,0,0.08);
+    }
+    .cta-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 26px;
+      font-weight: 300;
+      letter-spacing: 2px;
+      color: #1a1410;
+      margin-bottom: 12px;
+    }
+    .cta-body {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 17px;
+      color: #5a4a38;
+      margin-bottom: 28px;
+    }
+    .cta-phone {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 28px;
+      font-weight: 400;
+      letter-spacing: 3px;
+      color: #c5a258;
+      text-decoration: none;
+      display: inline-block;
+      padding: 14px 36px;
+      border: 1px solid #c5a258;
+      transition: all 0.3s;
+    }
+    .cta-phone:hover {
+      background: #c5a258;
+      color: #ffffff;
+    }
+
+    /* SIGN OFF */
+    .signoff {
+      text-align: center;
+      margin-top: 56px;
+      font-family: 'Cormorant Garamond', serif;
+      color: #5a4a38;
+    }
+    .signoff-name {
+      font-size: 22px;
+      font-weight: 400;
+      letter-spacing: 2px;
+      color: #1a1410;
+      margin-top: 6px;
+    }
+    .signoff-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 10px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #c5a258;
+      margin-top: 6px;
+    }
+
+    /* FOOTER */
+    .footer {
+      text-align: center;
+      margin-top: 56px;
+      padding-top: 32px;
+      border-top: 1px solid rgba(0,0,0,0.08);
+      font-family: 'Montserrat', sans-serif;
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #9a8a7a;
+    }
+    .footer-line { margin: 4px 0; }
+
+    @media (max-width: 600px) {
+      .hero-title { font-size: 38px; letter-spacing: 2px; }
+      .wrap { padding: 40px 20px 60px; }
+      td, th { padding: 12px 8px; font-size: 12px; }
+      td.size, td.price { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- HEADER -->
+    <div class="header">
+      <div class="brand">Bez Ambar</div>
+      <div class="brand-sub">Master Gem Cutter · Los Angeles</div>
+    </div>
+
+    <!-- HERO -->
+    <div class="hero-eyebrow">New Collection · 2026</div>
+    <h1 class="hero-title">The Elysian Cut&trade;</h1>
+    <div class="hero-sub">Eternity Band Collection</div>
+    <div class="hero-rule"></div>
+
+    <img src="elysian-hero.jpg" alt="The Elysian Cut Eternity Band" class="hero-img">
+
+    <!-- STORY -->
+    <p class="story">
+      An elongated oval, set north-south around the band — each stone reads as a single,
+      unbroken current of light. <em>The Elysian Cut</em> takes its name from Elysium, the
+      paradise of heroes in Greek myth. Designed for the woman who has earned forever.
+    </p>
+
+    <hr class="hero-rule">
+
+    <!-- PRICING -->
+    <div class="section-label">Trade Pricing</div>
+    <h2 class="section-heading">Wholesale Price List</h2>
+    <p class="section-note">Off-White VVS · 18k White Gold · Full Eternity</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Stone Size</th>
+          <th class="right">Stones</th>
+          <th class="right">Total Carat Weight</th>
+          <th class="right">Wholesale</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="size">.20 ct</td>
+          <td class="right">23</td>
+          <td class="right">4.49 ct</td>
+          <td class="price right">$5,905</td>
+        </tr>
+        <tr>
+          <td class="size">.25 ct</td>
+          <td class="right">22</td>
+          <td class="right">5.50 ct</td>
+          <td class="price right">$7,540</td>
+        </tr>
+        <tr>
+          <td class="size">.30 ct</td>
+          <td class="right">22</td>
+          <td class="right">6.60 ct</td>
+          <td class="price right">$10,312</td>
+        </tr>
+        <tr>
+          <td class="size">.40 ct</td>
+          <td class="right">20</td>
+          <td class="right">8.00 ct</td>
+          <td class="price right">$13,760</td>
+        </tr>
+        <tr>
+          <td class="size">.50 ct</td>
+          <td class="right">18</td>
+          <td class="right">9.00 ct</td>
+          <td class="price right">$17,800</td>
+        </tr>
+        <tr>
+          <td class="size">.70 ct</td>
+          <td class="right">17</td>
+          <td class="right">11.90 ct</td>
+          <td class="price right">$24,924</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p class="table-note">Pricing is wholesale, net terms available to qualified accounts.</p>
+
+    <!-- SPECS -->
+    <div class="specs">
+      <div class="specs-title">Collection Details</div>
+      <ul>
+        <li>18k white gold (yellow gold, rose gold, platinum on request)</li>
+        <li>Off-White VVS clarity diamonds, hand-selected</li>
+        <li>North-south setting, signature Elysian profile</li>
+        <li>Half-bands available in all sizes — pricing on request</li>
+        <li>Custom commissions and metal options: 4–6 weeks</li>
+        <li>Each piece signed and accompanied by full provenance documentation</li>
+      </ul>
+    </div>
+
+    <!-- CTA -->
+    <div class="cta">
+      <div class="cta-title">To Place an Order</div>
+      <div class="cta-body">Speak with Bez directly to confirm sizing, terms, and lead time.</div>
+      <a href="tel:+12136299191" class="cta-phone">(213) 629-9191</a>
+    </div>
+
+    <!-- SIGN OFF -->
+    <div class="signoff">
+      Warmly,
+      <div class="signoff-name">Bez Ambar</div>
+      <div class="signoff-title">Founder · Bez Ambar Inc.</div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <div class="footer-line">Bez Ambar · Los Angeles</div>
+      <div class="footer-line">www.bezambar.com</div>
+    </div>
+
+  </div>
+</body>
+</html>
